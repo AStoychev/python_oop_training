@@ -28,6 +28,9 @@ __pycache__/
 /venv
 .venv
 
+/project
+.project
+
 
 
 
