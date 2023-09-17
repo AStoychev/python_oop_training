@@ -9,7 +9,6 @@ class FoodOrdersApp:
         self.client_list = []
 
     def __get_client(self, client_phone_number_):
-        # find_client = next(filter(lambda x: x.phone_number == client_phone_number_, self.client_list), None)
         for client in self.client_list:
             if client.phone_number == client_phone_number_:
                 return client
